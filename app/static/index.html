@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SEO BRAIN 200 — Command Center</title>
+<style>
+:root{color-scheme:dark;--bg:#0b1020;--panel:#141c30;--line:#26334d;--muted:#9aabc5;--text:#edf3ff;--accent:#61a8ff;--green:#4ade80;--red:#f87171;--amber:#fbbf24}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px system-ui,sans-serif}
+main{max-width:1180px;margin:auto;padding:28px 20px}header{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:24px}
+h1{font-size:clamp(25px,4vw,38px);margin:0}h2{font-size:18px;margin:0 0 14px}.muted{color:var(--muted)}
+.pill{border:1px solid #28634a;color:var(--green);border-radius:999px;padding:6px 11px;font-size:12px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.panel{background:var(--panel);border:1px solid var(--line);border-radius:15px;padding:18px;margin-bottom:16px}
+.metric{font-size:30px;font-weight:750;margin-top:8px}.cards{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+button{background:var(--accent);color:#071326;border:0;border-radius:9px;padding:10px 14px;font-weight:700;cursor:pointer}
+button.ghost{background:transparent;color:var(--accent);border:1px solid var(--line);padding:6px 10px}
+button.no{background:transparent;color:var(--red);border:1px solid #5b2a2a;padding:6px 10px}
+input{width:100%;background:#0d1528;border:1px solid var(--line);border-radius:9px;padding:11px;color:var(--text);margin:7px 0 12px}
+table{width:100%;border-collapse:collapse;font-size:14px}td,th{padding:8px 6px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{color:var(--muted);font-weight:600}.sev{font-size:12px;font-weight:700;border-radius:6px;padding:2px 7px}
+.critical{background:#4c1d1d;color:#fecaca}.high{background:#4a2c12;color:#fed7aa}.medium{background:#3d3613;color:#fde68a}.low{background:#1d3347;color:#bfdbfe}
+.score{font-size:54px;font-weight:800}.url{overflow-wrap:anywhere;color:var(--muted);font-size:13px}
+@media(max-width:760px){.grid{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:1fr}header{align-items:flex-start;flex-direction:column}}
+</style>
+</head>
+<body><main>
+<header><div><h1>SEO BRAIN 200</h1><div class="muted">Autonomous SEO operating system · Command Center</div></div><span class="pill" id="mode">LIVE CRAWLER</span></header>
+<section class="grid">
+<div class="panel"><div class="muted">Agent roles defined</div><div class="metric" id="agentCount">–</div></div>
+<div class="panel"><div class="muted">Agents operational</div><div class="metric" id="opCount">–</div></div>
+<div class="panel"><div class="muted">Audits run</div><div class="metric" id="taskCount">0</div></div>
+<div class="panel"><div class="muted">Pending approvals</div><div class="metric" id="apCount">0</div></div>
+</section>
+<section class="cards">
+<div class="panel"><h2>Audit a website</h2>
+<label class="muted">Website URL</label><input id="url" placeholder="example.com">
+<label class="muted">Pages to crawl (max 100)</label><input id="pages" type="number" value="25" min="1" max="100">
+<button onclick="startAudit()">Run SEO audit</button>
+<p class="muted" id="status"></p></div>
+<div class="panel"><h2>Recent audits</h2><table><thead><tr><th>Site</th><th>Status</th><th>Score</th><th></th></tr></thead><tbody id="tasks"></tbody></table></div>
+</section>
+<section class="panel" id="reportPanel" style="display:none">
+<div style="display:flex;gap:24px;align-items:center;flex-wrap:wrap"><div><div class="muted">Health score</div><div class="score" id="score"></div></div>
+<div><h2 id="repTitle"></h2><div class="muted" id="repMeta"></div></div></div>
+<h2 style="margin-top:20px">Top priorities</h2><table><thead><tr><th>Issue</th><th>Severity</th><th>Pages</th><th>Fix</th></tr></thead><tbody id="prio"></tbody></table>
+<h2 style="margin-top:20px">All findings</h2><table><thead><tr><th>Agent</th><th>Severity</th><th>Issue</th><th>Evidence</th></tr></thead><tbody id="findings"></tbody></table>
+</section>
+<section class="panel"><h2>Approval queue</h2><p class="muted">Site changes never run without a human yes.</p>
+<table><thead><tr><th>Proposed action</th><th>Risk</th><th>Findings</th><th></th></tr></thead><tbody id="approvals"></tbody></table></section>
+</main>
+<script>
+let KEY=localStorage.getItem('sb_key');
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+async function api(p,o={}){o.headers={'Content-Type':'application/json','X-API-Key':KEY||'',...(o.headers||{})};const r=await fetch(p,o);const j=await r.json().catch(()=>({}));if(!r.ok)throw new Error(j.detail?(typeof j.detail==='string'?j.detail:j.detail[0].msg):r.status);return j}
+async function init(){
+ const a=await api('/api/agents');agentCount.textContent=a.count;opCount.textContent=a.operational;
+ if(!KEY){try{KEY=(await api('/v1/dev/demo-key')).api_key;localStorage.setItem('sb_key',KEY)}catch(e){KEY=prompt('Enter your SEO BRAIN API key');localStorage.setItem('sb_key',KEY)}}
+ refresh();setInterval(refresh,3000)}
+async function refresh(){
+ const t=await api('/v1/tasks');taskCount.textContent=t.count;
+ tasks.innerHTML=t.tasks.slice(0,8).map(x=>`<tr><td>${esc(x.domain)}<div class="url">${esc(x.status==='running'?x.progress:'')}</div></td><td>${esc(x.status)}</td><td>${x.score??'–'}</td><td>${x.status==='completed'?`<button class="ghost" onclick="show('${x.id}')">View</button>`:''}</td></tr>`).join('');
+ const ap=await api('/v1/approvals');apCount.textContent=ap.approvals.length;
+ approvals.innerHTML=ap.approvals.map(x=>`<tr><td>${esc(x.action)}</td><td><span class="sev ${x.risk}">${x.risk}</span></td><td>${JSON.parse(x.payload).findings}</td><td><button class="ghost" onclick="decide('${x.id}','approve')">Approve</button> <button class="no" onclick="decide('${x.id}','reject')">Reject</button></td></tr>`).join('')||'<tr><td class="muted" colspan="4">Nothing waiting.</td></tr>'}
+async function startAudit(){status.textContent='Starting…';try{const r=await api('/v1/audit',{method:'POST',body:JSON.stringify({url:url.value,max_pages:+pages.value})});status.textContent='Audit running. Results appear in Recent audits.';refresh();watch(r.id)}catch(e){status.textContent='Error: '+e.message}}
+async function watch(id){const t=await api('/v1/tasks/'+id);if(t.status==='completed'){status.textContent='Audit complete.';show(id)}else if(t.status==='failed'){status.textContent='Audit failed: '+t.error}else setTimeout(()=>watch(id),2500)}
+async function show(id){const r=await api(`/v1/tasks/${id}/report`);const s=r.report;reportPanel.style.display='block';
+ score.textContent=s.score;score.style.color=s.score>=75?'var(--green)':s.score>=50?'var(--amber)':'var(--red)';
+ repTitle.textContent=`Grade ${s.grade}`;repMeta.textContent=`${s.pages_crawled} pages crawled · ${s.total_findings} findings`;
+ prio.innerHTML=s.priorities.map(p=>`<tr><td>${esc(p.issue)}</td><td><span class="sev ${p.severity}">${p.severity}</span></td><td>${p.pages_affected}</td><td>${esc(p.recommendation)}</td></tr>`).join('');
+ findings.innerHTML=r.findings.slice(0,200).map(f=>`<tr><td>${esc(f.agent_name)}</td><td><span class="sev ${f.severity}">${f.severity}</span></td><td>${esc(f.issue)}<div class="url">${esc(f.url)}</div></td><td>${esc(f.evidence)}</td></tr>`).join('');
+ reportPanel.scrollIntoView({behavior:'smooth'})}
+async function decide(id,d){const who=prompt('Your name for the audit log:');if(!who)return;const r=await api(`/v1/approvals/${id}/${d}`,{method:'POST',body:JSON.stringify({decided_by:who})});alert(r.execution);refresh()}
+init();
+</script>
+</body></html>

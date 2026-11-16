@@ -1,0 +1,6402 @@
+[
+  {
+    "id": "STR_001",
+    "department": "seo_intelligence_strategy",
+    "name": "SEO strategist",
+    "objective": "Perform the specialized seo strategist function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "STR_002",
+    "department": "seo_intelligence_strategy",
+    "name": "Keyword research",
+    "objective": "Perform the specialized keyword research function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "STR_003",
+    "department": "seo_intelligence_strategy",
+    "name": "Search intent analyst",
+    "objective": "Perform the specialized search intent analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "STR_004",
+    "department": "seo_intelligence_strategy",
+    "name": "Competitor intelligence",
+    "objective": "Perform the specialized competitor intelligence function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "STR_005",
+    "department": "seo_intelligence_strategy",
+    "name": "SERP opportunity analyst",
+    "objective": "Perform the specialized serp opportunity analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "STR_006",
+    "department": "seo_intelligence_strategy",
+    "name": "Market research",
+    "objective": "Perform the specialized market research function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "STR_007",
+    "department": "seo_intelligence_strategy",
+    "name": "Trend detection",
+    "objective": "Perform the specialized trend detection function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "STR_008",
+    "department": "seo_intelligence_strategy",
+    "name": "Content gap analysis",
+    "objective": "Perform the specialized content gap analysis function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "STR_009",
+    "department": "seo_intelligence_strategy",
+    "name": "Topic cluster planner",
+    "objective": "Perform the specialized topic cluster planner function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "STR_010",
+    "department": "seo_intelligence_strategy",
+    "name": "Entity research",
+    "objective": "Perform the specialized entity research function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "STR_011",
+    "department": "seo_intelligence_strategy",
+    "name": "Audience research",
+    "objective": "Perform the specialized audience research function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "STR_012",
+    "department": "seo_intelligence_strategy",
+    "name": "Local search analyst",
+    "objective": "Perform the specialized local search analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "STR_013",
+    "department": "seo_intelligence_strategy",
+    "name": "International SEO analyst",
+    "objective": "Perform the specialized international seo analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "STR_014",
+    "department": "seo_intelligence_strategy",
+    "name": "Keyword cannibalization",
+    "objective": "Perform the specialized keyword cannibalization function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "STR_015",
+    "department": "seo_intelligence_strategy",
+    "name": "Search forecasting",
+    "objective": "Perform the specialized search forecasting function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "STR_016",
+    "department": "seo_intelligence_strategy",
+    "name": "Opportunity scoring",
+    "objective": "Perform the specialized opportunity scoring function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "STR_017",
+    "department": "seo_intelligence_strategy",
+    "name": "SEO prioritization",
+    "objective": "Perform the specialized seo prioritization function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "STR_018",
+    "department": "seo_intelligence_strategy",
+    "name": "Algorithm monitoring",
+    "objective": "Perform the specialized algorithm monitoring function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "STR_019",
+    "department": "seo_intelligence_strategy",
+    "name": "AI search visibility",
+    "objective": "Perform the specialized ai search visibility function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "STR_020",
+    "department": "seo_intelligence_strategy",
+    "name": "Strategy coordinator",
+    "objective": "Perform the specialized strategy coordinator function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "TECH_001",
+    "department": "technical_seo_engineering",
+    "name": "Technical SEO auditor",
+    "objective": "Perform the specialized technical seo auditor function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "TECH_002",
+    "department": "technical_seo_engineering",
+    "name": "Crawl analyzer",
+    "objective": "Perform the specialized crawl analyzer function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "TECH_003",
+    "department": "technical_seo_engineering",
+    "name": "Indexation monitor",
+    "objective": "Perform the specialized indexation monitor function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "TECH_004",
+    "department": "technical_seo_engineering",
+    "name": "Broken-link detector",
+    "objective": "Perform the specialized broken-link detector function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "TECH_005",
+    "department": "technical_seo_engineering",
+    "name": "Redirect manager",
+    "objective": "Perform the specialized redirect manager function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "TECH_006",
+    "department": "technical_seo_engineering",
+    "name": "Schema generator",
+    "objective": "Perform the specialized schema generator function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "TECH_007",
+    "department": "technical_seo_engineering",
+    "name": "Core Web Vitals analyst",
+    "objective": "Perform the specialized core web vitals analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "TECH_008",
+    "department": "technical_seo_engineering",
+    "name": "Page speed optimizer",
+    "objective": "Perform the specialized page speed optimizer function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "TECH_009",
+    "department": "technical_seo_engineering",
+    "name": "Mobile SEO auditor",
+    "objective": "Perform the specialized mobile seo auditor function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "TECH_010",
+    "department": "technical_seo_engineering",
+    "name": "JavaScript SEO analyst",
+    "objective": "Perform the specialized javascript seo analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "TECH_011",
+    "department": "technical_seo_engineering",
+    "name": "Canonical manager",
+    "objective": "Perform the specialized canonical manager function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "TECH_012",
+    "department": "technical_seo_engineering",
+    "name": "Robots.txt auditor",
+    "objective": "Perform the specialized robots.txt auditor function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "TECH_013",
+    "department": "technical_seo_engineering",
+    "name": "XML sitemap manager",
+    "objective": "Perform the specialized xml sitemap manager function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "TECH_014",
+    "department": "technical_seo_engineering",
+    "name": "Duplicate content detector",
+    "objective": "Perform the specialized duplicate content detector function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "TECH_015",
+    "department": "technical_seo_engineering",
+    "name": "Security monitor",
+    "objective": "Perform the specialized security monitor function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "TECH_016",
+    "department": "technical_seo_engineering",
+    "name": "HTTPS auditor",
+    "objective": "Perform the specialized https auditor function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "TECH_017",
+    "department": "technical_seo_engineering",
+    "name": "Internal architecture analyst",
+    "objective": "Perform the specialized internal architecture analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "TECH_018",
+    "department": "technical_seo_engineering",
+    "name": "Image optimization",
+    "objective": "Perform the specialized image optimization function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "TECH_019",
+    "department": "technical_seo_engineering",
+    "name": "Technical fix executor",
+    "objective": "Perform the specialized technical fix executor function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "TECH_020",
+    "department": "technical_seo_engineering",
+    "name": "QA validator",
+    "objective": "Perform the specialized qa validator function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CONT_001",
+    "department": "content_intelligence_creation",
+    "name": "Content strategist",
+    "objective": "Perform the specialized content strategist function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CONT_002",
+    "department": "content_intelligence_creation",
+    "name": "Article researcher",
+    "objective": "Perform the specialized article researcher function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CONT_003",
+    "department": "content_intelligence_creation",
+    "name": "Content writer",
+    "objective": "Perform the specialized content writer function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CONT_004",
+    "department": "content_intelligence_creation",
+    "name": "SEO editor",
+    "objective": "Perform the specialized seo editor function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CONT_005",
+    "department": "content_intelligence_creation",
+    "name": "Content optimizer",
+    "objective": "Perform the specialized content optimizer function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CONT_006",
+    "department": "content_intelligence_creation",
+    "name": "Title and meta writer",
+    "objective": "Perform the specialized title and meta writer function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CONT_007",
+    "department": "content_intelligence_creation",
+    "name": "Content refresh agent",
+    "objective": "Perform the specialized content refresh agent function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CONT_008",
+    "department": "content_intelligence_creation",
+    "name": "Landing page builder",
+    "objective": "Perform the specialized landing page builder function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CONT_009",
+    "department": "content_intelligence_creation",
+    "name": "Product content agent",
+    "objective": "Perform the specialized product content agent function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CONT_010",
+    "department": "content_intelligence_creation",
+    "name": "Blog planner",
+    "objective": "Perform the specialized blog planner function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CONT_011",
+    "department": "content_intelligence_creation",
+    "name": "FAQ creator",
+    "objective": "Perform the specialized faq creator function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CONT_012",
+    "department": "content_intelligence_creation",
+    "name": "Semantic SEO analyst",
+    "objective": "Perform the specialized semantic seo analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CONT_013",
+    "department": "content_intelligence_creation",
+    "name": "E-E-A-T reviewer",
+    "objective": "Perform the specialized e-e-a-t reviewer function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CONT_014",
+    "department": "content_intelligence_creation",
+    "name": "Readability editor",
+    "objective": "Perform the specialized readability editor function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CONT_015",
+    "department": "content_intelligence_creation",
+    "name": "Content brief generator",
+    "objective": "Perform the specialized content brief generator function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CONT_016",
+    "department": "content_intelligence_creation",
+    "name": "Content calendar manager",
+    "objective": "Perform the specialized content calendar manager function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CONT_017",
+    "department": "content_intelligence_creation",
+    "name": "Content originality checker",
+    "objective": "Perform the specialized content originality checker function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CONT_018",
+    "department": "content_intelligence_creation",
+    "name": "Content publisher",
+    "objective": "Perform the specialized content publisher function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CONT_019",
+    "department": "content_intelligence_creation",
+    "name": "Content performance analyst",
+    "objective": "Perform the specialized content performance analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CONT_020",
+    "department": "content_intelligence_creation",
+    "name": "Content coordinator",
+    "objective": "Perform the specialized content coordinator function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AUTH_001",
+    "department": "authority_link_development",
+    "name": "Backlink auditor",
+    "objective": "Perform the specialized backlink auditor function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AUTH_002",
+    "department": "authority_link_development",
+    "name": "Link opportunity finder",
+    "objective": "Perform the specialized link opportunity finder function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AUTH_003",
+    "department": "authority_link_development",
+    "name": "Digital PR researcher",
+    "objective": "Perform the specialized digital pr researcher function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AUTH_004",
+    "department": "authority_link_development",
+    "name": "Publisher prospecting",
+    "objective": "Perform the specialized publisher prospecting function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AUTH_005",
+    "department": "authority_link_development",
+    "name": "Outreach personalization",
+    "objective": "Perform the specialized outreach personalization function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AUTH_006",
+    "department": "authority_link_development",
+    "name": "Brand mention finder",
+    "objective": "Perform the specialized brand mention finder function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AUTH_007",
+    "department": "authority_link_development",
+    "name": "Unlinked mention recovery",
+    "objective": "Perform the specialized unlinked mention recovery function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AUTH_008",
+    "department": "authority_link_development",
+    "name": "Competitor link analyst",
+    "objective": "Perform the specialized competitor link analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AUTH_009",
+    "department": "authority_link_development",
+    "name": "Resource page researcher",
+    "objective": "Perform the specialized resource page researcher function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AUTH_010",
+    "department": "authority_link_development",
+    "name": "Broken-link opportunity finder",
+    "objective": "Perform the specialized broken-link opportunity finder function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AUTH_011",
+    "department": "authority_link_development",
+    "name": "Guest contribution researcher",
+    "objective": "Perform the specialized guest contribution researcher function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AUTH_012",
+    "department": "authority_link_development",
+    "name": "Publisher relationship CRM",
+    "objective": "Perform the specialized publisher relationship crm function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AUTH_013",
+    "department": "authority_link_development",
+    "name": "Link quality evaluator",
+    "objective": "Perform the specialized link quality evaluator function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AUTH_014",
+    "department": "authority_link_development",
+    "name": "Toxic link risk monitor",
+    "objective": "Perform the specialized toxic link risk monitor function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AUTH_015",
+    "department": "authority_link_development",
+    "name": "Anchor text auditor",
+    "objective": "Perform the specialized anchor text auditor function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AUTH_016",
+    "department": "authority_link_development",
+    "name": "Authority gap analyst",
+    "objective": "Perform the specialized authority gap analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AUTH_017",
+    "department": "authority_link_development",
+    "name": "Citation manager",
+    "objective": "Perform the specialized citation manager function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AUTH_018",
+    "department": "authority_link_development",
+    "name": "Outreach campaign manager",
+    "objective": "Perform the specialized outreach campaign manager function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AUTH_019",
+    "department": "authority_link_development",
+    "name": "Link acquisition tracker",
+    "objective": "Perform the specialized link acquisition tracker function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AUTH_020",
+    "department": "authority_link_development",
+    "name": "Authority reporting",
+    "objective": "Perform the specialized authority reporting function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "LOCAL_001",
+    "department": "local_multichannel_visibility",
+    "name": "Google Business Profile monitor",
+    "objective": "Perform the specialized google business profile monitor function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "LOCAL_002",
+    "department": "local_multichannel_visibility",
+    "name": "Local keyword analyst",
+    "objective": "Perform the specialized local keyword analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "LOCAL_003",
+    "department": "local_multichannel_visibility",
+    "name": "Citation consistency auditor",
+    "objective": "Perform the specialized citation consistency auditor function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "LOCAL_004",
+    "department": "local_multichannel_visibility",
+    "name": "Review response assistant",
+    "objective": "Perform the specialized review response assistant function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "LOCAL_005",
+    "department": "local_multichannel_visibility",
+    "name": "Local landing page optimizer",
+    "objective": "Perform the specialized local landing page optimizer function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "LOCAL_006",
+    "department": "local_multichannel_visibility",
+    "name": "Location page manager",
+    "objective": "Perform the specialized location page manager function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "LOCAL_007",
+    "department": "local_multichannel_visibility",
+    "name": "Regional competitor analyst",
+    "objective": "Perform the specialized regional competitor analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "LOCAL_008",
+    "department": "local_multichannel_visibility",
+    "name": "Map visibility tracker",
+    "objective": "Perform the specialized map visibility tracker function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "LOCAL_009",
+    "department": "local_multichannel_visibility",
+    "name": "NAP data auditor",
+    "objective": "Perform the specialized nap data auditor function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "LOCAL_010",
+    "department": "local_multichannel_visibility",
+    "name": "Local schema manager",
+    "objective": "Perform the specialized local schema manager function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "LOCAL_011",
+    "department": "local_multichannel_visibility",
+    "name": "Service area analyst",
+    "objective": "Perform the specialized service area analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "LOCAL_012",
+    "department": "local_multichannel_visibility",
+    "name": "Directory researcher",
+    "objective": "Perform the specialized directory researcher function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "LOCAL_013",
+    "department": "local_multichannel_visibility",
+    "name": "Local content planner",
+    "objective": "Perform the specialized local content planner function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "LOCAL_014",
+    "department": "local_multichannel_visibility",
+    "name": "Local reputation monitor",
+    "objective": "Perform the specialized local reputation monitor function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "LOCAL_015",
+    "department": "local_multichannel_visibility",
+    "name": "Multi-location coordinator",
+    "objective": "Perform the specialized multi-location coordinator function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "LOCAL_016",
+    "department": "local_multichannel_visibility",
+    "name": "Brand visibility tracker",
+    "objective": "Perform the specialized brand visibility tracker function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "LOCAL_017",
+    "department": "local_multichannel_visibility",
+    "name": "YouTube SEO analyst",
+    "objective": "Perform the specialized youtube seo analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "LOCAL_018",
+    "department": "local_multichannel_visibility",
+    "name": "Image search optimizer",
+    "objective": "Perform the specialized image search optimizer function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "LOCAL_019",
+    "department": "local_multichannel_visibility",
+    "name": "Video content optimizer",
+    "objective": "Perform the specialized video content optimizer function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "LOCAL_020",
+    "department": "local_multichannel_visibility",
+    "name": "Channel performance analyst",
+    "objective": "Perform the specialized channel performance analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CRM_001",
+    "department": "crm_revenue_operations",
+    "name": "Lead capture",
+    "objective": "Perform the specialized lead capture function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CRM_002",
+    "department": "crm_revenue_operations",
+    "name": "Lead enrichment",
+    "objective": "Perform the specialized lead enrichment function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CRM_003",
+    "department": "crm_revenue_operations",
+    "name": "Lead scoring",
+    "objective": "Perform the specialized lead scoring function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CRM_004",
+    "department": "crm_revenue_operations",
+    "name": "CRM synchronization",
+    "objective": "Perform the specialized crm synchronization function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CRM_005",
+    "department": "crm_revenue_operations",
+    "name": "Contact segmentation",
+    "objective": "Perform the specialized contact segmentation function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CRM_006",
+    "department": "crm_revenue_operations",
+    "name": "Customer onboarding",
+    "objective": "Perform the specialized customer onboarding function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CRM_007",
+    "department": "crm_revenue_operations",
+    "name": "Pipeline manager",
+    "objective": "Perform the specialized pipeline manager function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CRM_008",
+    "department": "crm_revenue_operations",
+    "name": "Sales assistant",
+    "objective": "Perform the specialized sales assistant function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CRM_009",
+    "department": "crm_revenue_operations",
+    "name": "Email campaign planner",
+    "objective": "Perform the specialized email campaign planner function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CRM_010",
+    "department": "crm_revenue_operations",
+    "name": "Email personalization",
+    "objective": "Perform the specialized email personalization function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CRM_011",
+    "department": "crm_revenue_operations",
+    "name": "Follow-up manager",
+    "objective": "Perform the specialized follow-up manager function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CRM_012",
+    "department": "crm_revenue_operations",
+    "name": "Appointment scheduler",
+    "objective": "Perform the specialized appointment scheduler function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CRM_013",
+    "department": "crm_revenue_operations",
+    "name": "Proposal generator",
+    "objective": "Perform the specialized proposal generator function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CRM_014",
+    "department": "crm_revenue_operations",
+    "name": "Renewal manager",
+    "objective": "Perform the specialized renewal manager function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CRM_015",
+    "department": "crm_revenue_operations",
+    "name": "Churn prediction",
+    "objective": "Perform the specialized churn prediction function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CRM_016",
+    "department": "crm_revenue_operations",
+    "name": "Upsell opportunity analyst",
+    "objective": "Perform the specialized upsell opportunity analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CRM_017",
+    "department": "crm_revenue_operations",
+    "name": "Customer success agent",
+    "objective": "Perform the specialized customer success agent function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CRM_018",
+    "department": "crm_revenue_operations",
+    "name": "Support ticket triage",
+    "objective": "Perform the specialized support ticket triage function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CRM_019",
+    "department": "crm_revenue_operations",
+    "name": "Revenue attribution",
+    "objective": "Perform the specialized revenue attribution function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "CRM_020",
+    "department": "crm_revenue_operations",
+    "name": "CRM reporting",
+    "objective": "Perform the specialized crm reporting function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AIO_001",
+    "department": "ai_search_emerging_visibility",
+    "name": "AI search strategist",
+    "objective": "Perform the specialized ai search strategist function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AIO_002",
+    "department": "ai_search_emerging_visibility",
+    "name": "Generative search analyst",
+    "objective": "Perform the specialized generative search analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AIO_003",
+    "department": "ai_search_emerging_visibility",
+    "name": "Entity authority builder",
+    "objective": "Perform the specialized entity authority builder function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AIO_004",
+    "department": "ai_search_emerging_visibility",
+    "name": "Knowledge graph analyst",
+    "objective": "Perform the specialized knowledge graph analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AIO_005",
+    "department": "ai_search_emerging_visibility",
+    "name": "Structured data strategist",
+    "objective": "Perform the specialized structured data strategist function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AIO_006",
+    "department": "ai_search_emerging_visibility",
+    "name": "Answer optimization",
+    "objective": "Perform the specialized answer optimization function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AIO_007",
+    "department": "ai_search_emerging_visibility",
+    "name": "Question research",
+    "objective": "Perform the specialized question research function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AIO_008",
+    "department": "ai_search_emerging_visibility",
+    "name": "Conversational search analyst",
+    "objective": "Perform the specialized conversational search analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AIO_009",
+    "department": "ai_search_emerging_visibility",
+    "name": "Citation visibility tracker",
+    "objective": "Perform the specialized citation visibility tracker function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AIO_010",
+    "department": "ai_search_emerging_visibility",
+    "name": "AI content evaluator",
+    "objective": "Perform the specialized ai content evaluator function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AIO_011",
+    "department": "ai_search_emerging_visibility",
+    "name": "Brand mention monitor",
+    "objective": "Perform the specialized brand mention monitor function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AIO_012",
+    "department": "ai_search_emerging_visibility",
+    "name": "Topical authority planner",
+    "objective": "Perform the specialized topical authority planner function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AIO_013",
+    "department": "ai_search_emerging_visibility",
+    "name": "Semantic relationship analyst",
+    "objective": "Perform the specialized semantic relationship analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AIO_014",
+    "department": "ai_search_emerging_visibility",
+    "name": "Multimodal search analyst",
+    "objective": "Perform the specialized multimodal search analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AIO_015",
+    "department": "ai_search_emerging_visibility",
+    "name": "AI competitor analyst",
+    "objective": "Perform the specialized ai competitor analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AIO_016",
+    "department": "ai_search_emerging_visibility",
+    "name": "Search experience analyst",
+    "objective": "Perform the specialized search experience analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AIO_017",
+    "department": "ai_search_emerging_visibility",
+    "name": "Knowledge source researcher",
+    "objective": "Perform the specialized knowledge source researcher function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AIO_018",
+    "department": "ai_search_emerging_visibility",
+    "name": "AI visibility reporting",
+    "objective": "Perform the specialized ai visibility reporting function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AIO_019",
+    "department": "ai_search_emerging_visibility",
+    "name": "Emerging platform monitor",
+    "objective": "Perform the specialized emerging platform monitor function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "AIO_020",
+    "department": "ai_search_emerging_visibility",
+    "name": "AI strategy coordinator",
+    "objective": "Perform the specialized ai strategy coordinator function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "ANALYTICS_001",
+    "department": "analytics_continuous_optimization",
+    "name": "Google Analytics analyst",
+    "objective": "Perform the specialized google analytics analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "ANALYTICS_002",
+    "department": "analytics_continuous_optimization",
+    "name": "Search Console analyst",
+    "objective": "Perform the specialized search console analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "ANALYTICS_003",
+    "department": "analytics_continuous_optimization",
+    "name": "Ranking monitor",
+    "objective": "Perform the specialized ranking monitor function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "ANALYTICS_004",
+    "department": "analytics_continuous_optimization",
+    "name": "Traffic analyst",
+    "objective": "Perform the specialized traffic analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "ANALYTICS_005",
+    "department": "analytics_continuous_optimization",
+    "name": "Conversion analyst",
+    "objective": "Perform the specialized conversion analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "ANALYTICS_006",
+    "department": "analytics_continuous_optimization",
+    "name": "Revenue performance analyst",
+    "objective": "Perform the specialized revenue performance analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "ANALYTICS_007",
+    "department": "analytics_continuous_optimization",
+    "name": "Attribution analyst",
+    "objective": "Perform the specialized attribution analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "ANALYTICS_008",
+    "department": "analytics_continuous_optimization",
+    "name": "Dashboard builder",
+    "objective": "Perform the specialized dashboard builder function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "ANALYTICS_009",
+    "department": "analytics_continuous_optimization",
+    "name": "Anomaly detector",
+    "objective": "Perform the specialized anomaly detector function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "ANALYTICS_010",
+    "department": "analytics_continuous_optimization",
+    "name": "SEO experiment planner",
+    "objective": "Perform the specialized seo experiment planner function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "ANALYTICS_011",
+    "department": "analytics_continuous_optimization",
+    "name": "A/B test analyst",
+    "objective": "Perform the specialized a/b test analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "ANALYTICS_012",
+    "department": "analytics_continuous_optimization",
+    "name": "CTR optimizer",
+    "objective": "Perform the specialized ctr optimizer function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "ANALYTICS_013",
+    "department": "analytics_continuous_optimization",
+    "name": "Engagement analyst",
+    "objective": "Perform the specialized engagement analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "ANALYTICS_014",
+    "department": "analytics_continuous_optimization",
+    "name": "Content ROI analyst",
+    "objective": "Perform the specialized content roi analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "ANALYTICS_015",
+    "department": "analytics_continuous_optimization",
+    "name": "Forecasting analyst",
+    "objective": "Perform the specialized forecasting analyst function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "ANALYTICS_016",
+    "department": "analytics_continuous_optimization",
+    "name": "KPI monitor",
+    "objective": "Perform the specialized kpi monitor function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "ANALYTICS_017",
+    "department": "analytics_continuous_optimization",
+    "name": "Performance alert manager",
+    "objective": "Perform the specialized performance alert manager function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "ANALYTICS_018",
+    "department": "analytics_continuous_optimization",
+    "name": "Reporting agent",
+    "objective": "Perform the specialized reporting agent function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "ANALYTICS_019",
+    "department": "analytics_continuous_optimization",
+    "name": "Optimization recommender",
+    "objective": "Perform the specialized optimization recommender function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "ANALYTICS_020",
+    "department": "analytics_continuous_optimization",
+    "name": "Learning coordinator",
+    "objective": "Perform the specialized learning coordinator function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "DEPLOY_001",
+    "department": "deployment_automation",
+    "name": "Workflow orchestrator",
+    "objective": "Perform the specialized workflow orchestrator function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "DEPLOY_002",
+    "department": "deployment_automation",
+    "name": "Task scheduler",
+    "objective": "Perform the specialized task scheduler function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "DEPLOY_003",
+    "department": "deployment_automation",
+    "name": "API integration manager",
+    "objective": "Perform the specialized api integration manager function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "DEPLOY_004",
+    "department": "deployment_automation",
+    "name": "WordPress executor",
+    "objective": "Perform the specialized wordpress executor function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "DEPLOY_005",
+    "department": "deployment_automation",
+    "name": "CMS integration manager",
+    "objective": "Perform the specialized cms integration manager function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "DEPLOY_006",
+    "department": "deployment_automation",
+    "name": "Shopify executor",
+    "objective": "Perform the specialized shopify executor function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "DEPLOY_007",
+    "department": "deployment_automation",
+    "name": "Webflow executor",
+    "objective": "Perform the specialized webflow executor function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "DEPLOY_008",
+    "department": "deployment_automation",
+    "name": "Code deployment agent",
+    "objective": "Perform the specialized code deployment agent function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "DEPLOY_009",
+    "department": "deployment_automation",
+    "name": "Git change manager",
+    "objective": "Perform the specialized git change manager function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "DEPLOY_010",
+    "department": "deployment_automation",
+    "name": "Backup manager",
+    "objective": "Perform the specialized backup manager function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "DEPLOY_011",
+    "department": "deployment_automation",
+    "name": "Version control",
+    "objective": "Perform the specialized version control function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "DEPLOY_012",
+    "department": "deployment_automation",
+    "name": "Staging environment manager",
+    "objective": "Perform the specialized staging environment manager function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "DEPLOY_013",
+    "department": "deployment_automation",
+    "name": "Production QA",
+    "objective": "Perform the specialized production qa function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "DEPLOY_014",
+    "department": "deployment_automation",
+    "name": "Rollback manager",
+    "objective": "Perform the specialized rollback manager function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "DEPLOY_015",
+    "department": "deployment_automation",
+    "name": "Webhook handler",
+    "objective": "Perform the specialized webhook handler function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "DEPLOY_016",
+    "department": "deployment_automation",
+    "name": "Automation builder",
+    "objective": "Perform the specialized automation builder function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "DEPLOY_017",
+    "department": "deployment_automation",
+    "name": "Access control manager",
+    "objective": "Perform the specialized access control manager function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "DEPLOY_018",
+    "department": "deployment_automation",
+    "name": "Credential security monitor",
+    "objective": "Perform the specialized credential security monitor function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "DEPLOY_019",
+    "department": "deployment_automation",
+    "name": "Deployment monitor",
+    "objective": "Perform the specialized deployment monitor function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "DEPLOY_020",
+    "department": "deployment_automation",
+    "name": "Execution coordinator",
+    "objective": "Perform the specialized execution coordinator function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "GOV_001",
+    "department": "business_intelligence_governance",
+    "name": "Master AI orchestrator",
+    "objective": "Perform the specialized master ai orchestrator function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "GOV_002",
+    "department": "business_intelligence_governance",
+    "name": "Client account manager",
+    "objective": "Perform the specialized client account manager function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "GOV_003",
+    "department": "business_intelligence_governance",
+    "name": "Multi-site manager",
+    "objective": "Perform the specialized multi-site manager function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "GOV_004",
+    "department": "business_intelligence_governance",
+    "name": "Task allocation manager",
+    "objective": "Perform the specialized task allocation manager function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "GOV_005",
+    "department": "business_intelligence_governance",
+    "name": "Agent performance monitor",
+    "objective": "Perform the specialized agent performance monitor function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "GOV_006",
+    "department": "business_intelligence_governance",
+    "name": "AI quality auditor",
+    "objective": "Perform the specialized ai quality auditor function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "GOV_007",
+    "department": "business_intelligence_governance",
+    "name": "Fact verification agent",
+    "objective": "Perform the specialized fact verification agent function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "GOV_008",
+    "department": "business_intelligence_governance",
+    "name": "Policy compliance agent",
+    "objective": "Perform the specialized policy compliance agent function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "GOV_009",
+    "department": "business_intelligence_governance",
+    "name": "Privacy monitor",
+    "objective": "Perform the specialized privacy monitor function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "GOV_010",
+    "department": "business_intelligence_governance",
+    "name": "Cost optimization agent",
+    "objective": "Perform the specialized cost optimization agent function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "GOV_011",
+    "department": "business_intelligence_governance",
+    "name": "Usage billing manager",
+    "objective": "Perform the specialized usage billing manager function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "GOV_012",
+    "department": "business_intelligence_governance",
+    "name": "Subscription manager",
+    "objective": "Perform the specialized subscription manager function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "GOV_013",
+    "department": "business_intelligence_governance",
+    "name": "SaaS analytics agent",
+    "objective": "Perform the specialized saas analytics agent function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "GOV_014",
+    "department": "business_intelligence_governance",
+    "name": "Customer reporting",
+    "objective": "Perform the specialized customer reporting function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "GOV_015",
+    "department": "business_intelligence_governance",
+    "name": "Knowledge memory manager",
+    "objective": "Perform the specialized knowledge memory manager function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "GOV_016",
+    "department": "business_intelligence_governance",
+    "name": "Incident manager",
+    "objective": "Perform the specialized incident manager function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "GOV_017",
+    "department": "business_intelligence_governance",
+    "name": "Risk assessment agent",
+    "objective": "Perform the specialized risk assessment agent function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "GOV_018",
+    "department": "business_intelligence_governance",
+    "name": "Audit log manager",
+    "objective": "Perform the specialized audit log manager function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "GOV_019",
+    "department": "business_intelligence_governance",
+    "name": "Service reliability monitor",
+    "objective": "Perform the specialized service reliability monitor function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  },
+  {
+    "id": "GOV_020",
+    "department": "business_intelligence_governance",
+    "name": "Business intelligence director",
+    "objective": "Perform the specialized business intelligence director function for an authorized tenant and website.",
+    "inputs": [
+      "tenant_context",
+      "website_context",
+      "task_brief",
+      "relevant_evidence"
+    ],
+    "outputs": [
+      "structured_findings",
+      "recommended_actions",
+      "evidence",
+      "confidence",
+      "status"
+    ],
+    "tools": [],
+    "permissions": [
+      "read_assigned_tenant_data"
+    ],
+    "dependencies": [],
+    "memory_scope": "tenant_scoped",
+    "quality_checks": [
+      "schema_validation",
+      "evidence_check",
+      "policy_check"
+    ],
+    "escalation": "Escalate high-risk, ambiguous, destructive, or policy-sensitive actions for human approval.",
+    "implementation_status": "specification_only"
+  }
+]
